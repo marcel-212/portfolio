@@ -1,0 +1,124 @@
+$main: #181818;
+$secondary: #444444;
+$background: #e6fdff;
+$background-secondary: #f8f8f8;
+$element: #7fece7;
+$element-alternative: #e7a7bc;
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+
+  color: $main;
+}
+
+body{
+  background-color: $background-secondary;
+}
+
+button{
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  display: block;
+}
+
+aside {
+  position: fixed;
+  right: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 34px;
+  padding: 4px 3px;
+  background: linear-gradient(to bottom, $element 0%,$element-alternative 100%);
+
+  menu{
+    padding: 12px;
+    border-radius: 31px;
+    background-color: $background;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 12px;
+
+    button{
+      border-radius: 50%;
+      padding: 6px;
+
+      svg{
+        color: $main;
+        width:36px;
+        height: 36px;
+        opacity: 0.6;
+      }
+
+      &:hover{
+        svg{
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.card-xl{
+  border: 2px solid $secondary;
+  color: $secondary;
+  max-width: 720px;
+  padding: 1rem;
+
+  box-shadow: 4px 4px 8px -4px $main;
+  border-radius: 16px;
+
+  &-image{
+    border-radius: 16px;
+    padding: 1rem;
+
+    aspect-ratio: 3/1  ;
+
+    background-size: 110%;
+    background-position: center;
+  
+    h2{
+      text-transform: capitalize;
+      padding: 0.5rem;
+      width: max-content;
+      max-width: 200;
+      line-height: 1;
+      border-radius: 8px;
+      border: 2px solid $secondary;
+      background-color: #44444480;
+      letter-spacing: 1px;
+      color: $background-secondary;
+    }
+  }
+}
+
+.btn{
+  background: linear-gradient(to bottom, $element 0%, $background-secondary 100% );
+  padding: 3px;
+  border-radius: 12px;
+
+}
