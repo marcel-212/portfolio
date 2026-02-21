@@ -1,0 +1,40 @@
+@use 'variables' as *;
+
+.nav-button{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+
+    max-width: max-content;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 12px;
+    
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 20px;
+
+    @include box-shadow;
+}
+
+.alternative{
+    border-color: $primary-60;
+    background-color: $secondary-20;
+    color: $primary-60;
+
+    &:hover{
+        border-color: $primary;
+        color: $primary;
+    }
+}
+
+.default{
+    border-color: $secondary-60;
+    background-color: $primary-20;
+    color: $secondary-60;
+
+    &:hover{
+        border-color: $secondary;
+        color: $secondary;
+    }
+}

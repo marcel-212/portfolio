@@ -1,0 +1,26 @@
+@use 'variables' as *;
+
+.tech-card{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    max-width: max-content;
+    padding: 0.5rem 0.75rem;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: $secondary-20;
+
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    @include box-shadow;
+
+    svg{
+        width: 14px;
+        height: 14px;
+        background-color: transparent;
+    }
+}

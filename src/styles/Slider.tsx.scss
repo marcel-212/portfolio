@@ -1,0 +1,80 @@
+@use './variables' as *;
+
+.slider{
+    max-width: 736px;
+    margin: 0 auto;
+}
+
+.slider-points{
+    margin-top: 1rem;
+
+    display: flex;
+    justify-content: center;
+    gap: 0.25rem;
+
+    button{
+        width: 16px;
+        height: 16px;
+
+        border-radius: 50%;
+        border: 1px solid $secondary-60;
+
+        background-color: $secondary-20;
+    }
+
+    .active{
+        background-color: $element-second;
+        border-color: $secondary;
+    }
+}
+
+.slider-main{
+    position: relative;
+
+    &__viewport{
+        overflow: hidden;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    &__track{
+        position: relative;
+        width: 100%;
+
+        display: flex;
+
+        transition: 0.2s linear;
+
+        &_slide{
+            padding: 0.5rem;
+            flex: 0 0 100%;
+        }
+    }
+}
+
+.slider-main__btn{
+    position: absolute;
+    top:20%;
+    z-index: 99;
+
+
+    color: white;
+    background-color: black;
+    padding: 0.25rem;
+
+    svg{
+        display: block;
+        height: 32px;
+        width: 32px;
+    }
+
+    &_right{
+        border-radius: 8px;
+        right: 0rem;
+    }
+
+    &_left{
+        left: 0rem;
+        border-radius: 8px;
+    }
+}

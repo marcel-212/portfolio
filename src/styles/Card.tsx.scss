@@ -1,0 +1,56 @@
+@use './variables' as *;
+
+.card{
+    border-radius: 16px;
+    border: 2px solid $secondary;
+    width: 100%;
+    min-width: 280px;
+    max-width: 720px;
+
+    padding: 1rem;
+
+    @include box-shadow;
+
+    p{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        line-height: 1.5;
+        letter-spacing: 1px;
+        text-align: justify;
+        max-height: 250px;
+        overflow-y: auto;
+    }
+
+    &-tech{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+
+        .tech-card{
+            font-size: 12px;
+            padding: 0.4rem;
+            border-width: 1px;
+
+            svg{
+                width: 12px;
+                height: 12px;
+            }
+        }
+    }
+
+    .card-image{
+        border-radius: 12px;
+
+        &-active{
+            padding: 0.5rem;
+            min-height: 200px;
+            max-height: 260px;
+            display: flex;
+            flex-direction: column;
+
+            a{
+                margin-top: auto;
+            }
+        }
+    }
+}
