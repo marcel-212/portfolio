@@ -27,6 +27,7 @@ main{
 .tech-list{
   text-align: center;
   padding: 2rem 1rem;
+  margin: 2rem auto 4rem auto;
 
   &-box{
     margin-top: 2rem;
@@ -49,6 +50,16 @@ main{
     align-items: center;
     flex-direction: column;
     gap: 1rem;
+  
+    @media (min-width: 680px){
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+
+    @media (min-width: 1020px){
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+    }
   }
 }
 

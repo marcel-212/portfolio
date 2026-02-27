@@ -1,21 +1,25 @@
-import type { Tech } from "../types";
-import { ICONS } from "../tech";
+import { ICONS, type IconKey } from "../tech";
 import { useState, type CSSProperties } from "react";
 
 import '../styles/TechCard.tsx.scss'
 
 type Props = {
-    tech: Tech
+    tech: {
+        id: number
+        name: string
+        href: string
+    }
+    type: IconKey
 }
 
-const TechCard = ({tech}: Props) => {
+const TechCard = ({tech, type}: Props) => {
     const [isHover, setIsHover] = useState<boolean>(false);
 
-    const Icon = ICONS[tech.type].icon
+    const Icon = ICONS[type].icon
 
     const style:CSSProperties = {
-        borderColor: ICONS[tech.type].color_border,
-        color: ICONS[tech.type].color_main
+        borderColor: ICONS[type].color_border,
+        color: ICONS[type].color_main
     }
 
     return ( 

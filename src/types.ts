@@ -7,11 +7,14 @@ export type Icon = {
     icon: IconType
 }
 
-export type Tech = {
+export type TechObject = {
     id: number
     name: string
-    type: IconKey
     href: string
+}
+
+export type Tech = {
+    [key in IconKey]: TechObject
 }
 
 export type Site = {
@@ -20,5 +23,6 @@ export type Site = {
     image: string
     description: string
     repository: string
-    tech: Tech[]
+    repository_backend?: string
+    tech: IconKey[]
 }

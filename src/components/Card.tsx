@@ -3,6 +3,7 @@ import type { Site } from "../types";
 import TechCard from "./TechCard";
 import { IoLogoGithub } from "react-icons/io5";
 
+import tech from '../data/tech.json'
 import '../styles/Card.tsx.scss'
 import type { CSSProperties } from "react";
 
@@ -39,8 +40,8 @@ const Card = ({site, displayImage}:Props) => {
             <p>{site.description}</p>
 
             <div className="card-tech">
-                {site.tech.map((item) => (
-                    <TechCard key={item.id} tech={item}/>
+                {site.tech.map((item, index) => (
+                    <TechCard key={index} type={item} tech={tech[item]}/>
                 ))}
             </div>
         </div>

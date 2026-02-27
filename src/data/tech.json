@@ -1,0 +1,137 @@
+{
+  "html": {
+    "id": 1,
+    "name": "HTML",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  },
+  "css": {
+    "id": 2,
+    "name": "CSS",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  },
+  "js": {
+    "id": 3,
+    "name": "JavaScript",
+    "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+  },
+  "node": {
+    "id": 4,
+    "name": "NodeJS",
+    "href": "https://nodejs.org/en"
+  },
+  "php": {
+    "id": 5,
+    "name": "PHP",
+    "href": "https://www.php.net/"
+  },
+  "csharp": {
+    "id": 6,
+    "name": "C#",
+    "href": "https://learn.microsoft.com/en-us/dotnet/csharp/"
+  },
+  "react": {
+    "id": 7,
+    "name": "React",
+    "href": "https://react.dev/"
+  },
+  "dotnet": {
+    "id": 8,
+    "name": ".NET",
+    "href": "https://dotnet.microsoft.com/"
+  },
+  "vue": {
+    "id": 9,
+    "name": "Vue",
+    "href": "https://vuejs.org/"
+  },
+  "symfony": {
+    "id": 10,
+    "name": "Symfony",
+    "href": "https://symfony.com/"
+  },
+  "express": {
+    "id": 11,
+    "name": "Express",
+    "href": "https://expressjs.com/"
+  },
+  "scss": {
+    "id": 12,
+    "name": "SCSS",
+    "href": "https://sass-lang.com/"
+  },
+  "tailwind": {
+    "id": 13,
+    "name": "Tailwind CSS",
+    "href": "https://tailwindcss.com/"
+  },
+  "docker": {
+    "id": 14,
+    "name": "Docker",
+    "href": "https://www.docker.com/"
+  },
+  "vitest": {
+    "id": 15,
+    "name": "Vitest",
+    "href": "https://vitest.dev/"
+  },
+  "rtkquery": {
+    "id": 16,
+    "name": "RTK Query",
+    "href": "https://redux-toolkit.js.org/rtk-query/overview"
+  },
+  "sql": {
+    "id": 17,
+    "name": "SQL",
+    "href": "https://developer.mozilla.org/en-US/docs/Glossary/SQL"
+  },
+  "postgres": {
+    "id": 18,
+    "name": "PostgreSQL",
+    "href": "https://www.postgresql.org/"
+  },
+  "mongo": {
+    "id": 19,
+    "name": "MongoDB",
+    "href": "https://www.mongodb.com/"
+  },
+  "mssql": {
+    "id": 20,
+    "name": "MSSQL",
+    "href": "https://www.microsoft.com/en-us/sql-server"
+  },
+  "knex": {
+    "id": 21,
+    "name": "Knex.js",
+    "href": "https://knexjs.org/"
+  },
+  "rest": {
+    "id": 22,
+    "name": "REST API",
+    "href": "https://developer.mozilla.org/en-US/docs/Glossary/REST"
+  },
+  "typescript": {
+    "id": 23,
+    "name": "TypeScript",
+    "href": "https://www.typescriptlang.org/"
+  },
+  "redux": {
+    "id": 24,
+    "name": "React Redux",
+    "href": "https://react-redux.js.org/"
+  },
+  "pinia": {
+    "id": 25,
+    "name": "Pinia",
+    "href": "https://pinia.vuejs.org/"
+  },
+  "git": {
+    "id": 26,
+    "name": "Git",
+    "href": "https://git-scm.com/"
+  },
+  "mariadb": {
+    "id": 27,
+    "name": "MariaDB",
+    "href": "https://mariadb.org/"
+  }
+}

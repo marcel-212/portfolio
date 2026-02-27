@@ -1,18 +1,20 @@
-import type { Tech } from "../types";
+import type { Tech, TechObject } from "../types";
 import TechCard from "../components/TechCard";
+import type { IconKey } from "../tech";
 
 type Props = {
     title: string
-    list: Tech[]
+    list: Tech
+    ref: React.RefObject<any>
 }
 
-const TechList = ({title, list}: Props) => {
+const TechList = ({title, list, ref}: Props) => {
     return ( 
-        <section className="tech-list">
+        <section className="tech-list" ref={ref}>
             <h1>{title}</h1>
             <div className="tech-list-box">
-                {list.map((item) => (
-                   <TechCard key={item.id} tech={item}/> 
+                {(Object.entries(list) as [IconKey, TechObject][]).map(([key, item]) => (
+                   <TechCard key={key} type={key} tech={item}/> 
                 ))}
             </div>
         </section>

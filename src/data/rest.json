@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "title": "Rating Component",
+        "image": "",
+        "description": "",
+        "repository": "-",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 2,
+        "title": "QR component",
+        "image":"",
+        "description": "",
+        "repository": "#",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 3,
+        "title": "Order Summary",
+        "image": "",
+        "description": "",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 4,
+        "title": "Manage Landing Page",
+        "image": "",
+        "description": "",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 5,
+        "title": "Loopstudios Landing Page",
+        "image": "",
+        "description": "",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 6,
+        "title": "Library",
+        "image": "",
+        "description": "",
+        "tech": ["vue", "html", "js", "css"]
+    },
+    {
+        "id": 7,
+        "title": "Insure",
+        "image": "",
+        "description": "",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 8,
+        "title": "Four Card Section",
+        "image": "",
+        "description": "",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 9,
+        "title": "Countries",
+        "image": "",
+        "description": "",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 10,
+        "title": "Calculator",
+        "image": "",
+        "description": "",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 11,
+        "title": "Clipboard",
+        "image": "",
+        "description": "",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 12,
+        "title": "Base Apparel",
+        "image": "",
+        "description": "",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 13,
+        "title": "Article Preview",
+        "image": "",
+        "description": "",
+        "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 14,
+        "title": "Advice Generator",
+        "image": "",
+        "description": "",
+        "tech": ["html", "js", "css"]
+    }
+]

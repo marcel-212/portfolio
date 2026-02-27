@@ -8,9 +8,11 @@ import '../styles/Slider.tsx.scss'
 type Props = {
     title: string
     slides: Site[]
+    className?: string
+    ref: React.RefObject<any>
 }
 
-const Slider = ({title, slides}:Props) => {
+const Slider = ({title, slides, className, ref}:Props) => {
     const [current, setCurrent] = useState<number>(0);
 
     const prevSlide = ():void => {
@@ -30,9 +32,9 @@ const Slider = ({title, slides}:Props) => {
     }
 
     return ( 
-        <section className="slider-box">
+        <section className="slider-box" ref={ref}>
             <h1>{title}</h1>
-            <div className="slider">
+            <div className={`slider ${className}`}>
                 <div className="slider-main">
                     <button onClick={prevSlide} className="slider-main__btn slider-main__btn_left">
                             <BiSolidLeftArrow/>
