@@ -1,34 +1,30 @@
 @use './variables' as *;
 
 .card{
-    border-radius: 8px;
-    border: 2px solid $secondary;
-    width: 100%;
-    min-width: 280px;
-    max-width: 720px;
+    border-radius: 0;
+    border-bottom: 2px solid $secondary;
 
     padding: 1rem;
 
-    @include box-shadow;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 
     p{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        line-height: 1.5;
-        letter-spacing: 1px;
-        text-align: justify;
-        max-height: 250px;
-        overflow-y: auto;
+        span{
+            font-size: 20px;
+            line-height: 2;
+        }
     }
 
     &-tech{
         display: flex;
-        flex-wrap: wrap;
         gap: 0.5rem;
+        flex-wrap: wrap;
 
         .tech-card{
+            padding: 0.20rem;
             font-size: 12px;
-            padding: 0.4rem;
             border-width: 1px;
 
             svg{
@@ -38,18 +34,37 @@
         }
     }
 
-    .card-image{
+    &-image{
+        min-height: 120px;
+        max-height: 240px;
+        height: 100%;
+
         border-radius: 4px;
 
-        &-active{
-            padding: 0.5rem;
-            min-height: 200px;
-            max-height: 260px;
-            display: flex;
-            flex-direction: column;
+        @include box-shadow;
+    }
 
-            a{
-                margin-top: auto;
+    &-btn-box{
+        margin-top: 0.25rem;
+        padding-top: 0.75rem;
+        border-top: 1px solid grey;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+
+        a{
+            padding: 0.25rem;
+            border: 1px solid $secondary;
+            border-radius: 4px;
+
+            display: flex;
+            gap: 0.25rem;
+            align-items: center;
+
+            font-size: 24px;
+            svg{
+                width: 24px;
+                height: 24px;
             }
         }
     }

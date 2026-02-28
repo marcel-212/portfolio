@@ -5,7 +5,7 @@ import type { IconKey } from "../tech";
 type Props = {
     title: string
     list: Tech
-    ref: React.RefObject<any>
+    ref?: React.RefObject<any>
 }
 
 const TechList = ({title, list, ref}: Props) => {
