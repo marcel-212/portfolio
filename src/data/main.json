@@ -2,10 +2,10 @@
     {
         "id": 1,
         "title": "Japanese FS app",
-        "description": "",
-        "image": "",
-        "repository": "",
-        "repostiory_backend": "",
-        "tech": ""
+        "description": "desc",
+        "image": "https://github.com/marcel-212/portfolio/blob/main/images/jabko.jpg?raw=true",
+        "repository": "#",
+        "repostiory_backend": "#",
+        "tech": ["react", "rtkquery", "redux", "scss", "typescript", "html", "node", "mongo", "express"]
     }
 ]

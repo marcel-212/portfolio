@@ -4,7 +4,7 @@
         "title": "Rating Component",
         "image": "",
         "description": "",
-        "repository": "-",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/rating_component",
         "tech": ["html", "js", "css"]
     },
     {
@@ -12,7 +12,7 @@
         "title": "QR component",
         "image":"",
         "description": "",
-        "repository": "#",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/qr_component",
         "tech": ["html", "js", "css"]
     },
     {
@@ -20,55 +20,56 @@
         "title": "Order Summary",
         "image": "",
         "description": "",
+        "repository":" https://github.com/marcel-212/smaller/tree/main/order_summary",
         "tech": ["html", "js", "css"]
     },
     {
         "id": 4,
         "title": "Manage Landing Page",
         "image": "",
-        "description": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/manage_landing_page",
         "tech": ["html", "js", "css"]
     },
     {
         "id": 5,
         "title": "Loopstudios Landing Page",
         "image": "",
-        "description": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/loopstudios_landing_page",
         "tech": ["html", "js", "css"]
     },
     {
         "id": 6,
         "title": "Library",
         "image": "",
-        "description": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/library",
         "tech": ["vue", "html", "js", "css"]
     },
     {
         "id": 7,
         "title": "Insure",
         "image": "",
-        "description": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/insure",
         "tech": ["html", "js", "css"]
     },
     {
         "id": 8,
         "title": "Four Card Section",
         "image": "",
-        "description": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/four_card_section",
         "tech": ["html", "js", "css"]
     },
     {
         "id": 9,
         "title": "Countries",
         "image": "",
-        "description": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/Countries",
         "tech": ["html", "js", "css"]
     },
     {
         "id": 10,
         "title": "Calculator",
         "image": "",
-        "description": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/calculator",
         "tech": ["html", "js", "css"]
     },
     {
@@ -76,27 +77,42 @@
         "title": "Clipboard",
         "image": "",
         "description": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/Clipboard",
         "tech": ["html", "js", "css"]
     },
     {
         "id": 12,
         "title": "Base Apparel",
         "image": "",
-        "description": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/base_apparel",
         "tech": ["html", "js", "css"]
     },
     {
         "id": 13,
         "title": "Article Preview",
         "image": "",
-        "description": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/article_preview",
         "tech": ["html", "js", "css"]
     },
     {
         "id": 14,
         "title": "Advice Generator",
         "image": "",
-        "description": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/advice_generator",
         "tech": ["html", "js", "css"]
+    },
+    {
+        "id": 15,
+        "title": "Snake",
+        "image": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/snake",
+        "tech": ["python"]
+    },
+    {
+        "id": 16,
+        "title": "AI chat",
+        "image": "",
+        "repository": "https://github.com/marcel-212/smaller/tree/main/ai_chat",
+        "tech": ["python"]
     }
 ]

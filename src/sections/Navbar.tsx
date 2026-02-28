@@ -18,7 +18,7 @@ const Navbar = ({scroll}:Props) => {
         <nav className={isActive ? 'active-nav' : ''}>
             <menu>
                 <button onClick={() => scroll(0)}><VscServerProcess/></button>
-                <button onClick={() => scroll(1)}><BsDisplay/></button>
+                {/*<button onClick={() => scroll(1)}><BsDisplay/></button>*/}
                 <button onClick={() => scroll(2)}><GoBrowser/></button>
                 <button onClick={() => scroll(3)}><FaCogs/></button>
                 <button onClick={() => {}}><FaRegLightbulb/></button>

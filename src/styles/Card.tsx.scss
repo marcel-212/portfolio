@@ -1,7 +1,7 @@
 @use './variables' as *;
 
 .card{
-    border-radius: 16px;
+    border-radius: 8px;
     border: 2px solid $secondary;
     width: 100%;
     min-width: 280px;
@@ -39,7 +39,7 @@
     }
 
     .card-image{
-        border-radius: 12px;
+        border-radius: 4px;
 
         &-active{
             padding: 0.5rem;

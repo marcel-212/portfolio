@@ -23,7 +23,7 @@
     }
 
     .active{
-        background-color: $element-second;
+        background-color: $secondary;
         border-color: $secondary;
     }
 }
@@ -54,7 +54,7 @@
 
 .slider-main__btn{
     position: absolute;
-    top:20%;
+    top:25%;
     z-index: 99;
 
 
@@ -69,13 +69,13 @@
     }
 
     &_right{
-        border-radius: 8px;
+        border-radius: 4px;
         right: 0rem;
     }
 
     &_left{
         left: 0rem;
-        border-radius: 8px;
+        border-radius: 4px;
     }
 }
 

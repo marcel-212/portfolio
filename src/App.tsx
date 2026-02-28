@@ -6,6 +6,7 @@ import TechList from './sections/TechList'
 import Navbar from './sections/Navbar'
 
 import data from './data/tech.json'
+import mainData from './data/main.json'
 import restData from './data/rest.json'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   const techRef = useRef<any>(null);
 
   const tech:Tech = data as Tech
+  const sites:Site[] = mainData as Site[]
   const rest:Site[] = restData as Site[]
 
   const scrollToSection = (section:number) => {
@@ -28,15 +30,12 @@ function App() {
     refs[section]?.current?.scrollIntoView({behavior: 'smooth'})
   }
 
-  const mock:Site[] = []
-
-
   return (
     <>
       <Navbar scroll={scrollToSection}/>
       <main>
-        <Slider ref={fullStackRef} title='Full Stack' slides={mock}/>
-        <AppList ref={restRef} title='Rest / Smaller' list={rest}/>
+        <Slider ref={fullStackRef} title=' &nbsp;' slides={sites}/>
+        <AppList ref={restRef} title='&nbsp; ' list={rest}/>
         <TechList ref={techRef} title='Technology' list={tech}/>
       </main>
     </>
