@@ -26,3 +26,5 @@ export type Site = {
     repository_backend?: string
     tech: IconKey[]
 }
+
+export type Test = {}
