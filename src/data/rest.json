@@ -13,6 +13,7 @@
         "image":"",
         "description": "",
         "repository": "https://github.com/marcel-212/smaller/tree/main/qr_component",
+        "repostiory_backend": "",
         "tech": ["html", "js", "css"]
     },
     {

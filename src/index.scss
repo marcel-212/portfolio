@@ -39,8 +39,14 @@ main{
   }
 }
 
+body{
+  background-color: $primary;
+  color: $secondary;
+}
+
 .site-list{
   padding: 1rem;
+  border-bottom: 2px solid $secondary;
 
   menu{
     display: flex;
@@ -57,13 +63,17 @@ main{
       cursor: pointer;
 
       &:hover{
-        background-color: rgba(0, 0, 0, 0.10);
+        background-color: rgba(148, 146, 146, 0.1);
       }
     }
 
     .btn-active{
       background-color: $secondary;
       color: $primary;
+
+      &:hover{
+        color: $secondary;
+      }
     }
   }
 }

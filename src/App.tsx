@@ -6,7 +6,7 @@ function App() {
   return (
     <main>
       <SiteList/>
-      <TechList title='Technologia' list={tech}/>
+      <TechList title='Technologie' list={tech}/>
     </main>
   )
 }

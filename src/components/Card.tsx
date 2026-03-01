@@ -9,9 +9,10 @@ import { IoLogoGithub } from "react-icons/io";
 type Props = {
     displayImage: boolean
     site: Site
+    server: boolean
 }
 
-const Card = ({site, displayImage}:Props) => {
+const Card = ({site, displayImage, server}:Props) => {
 
     const imageStyle:CSSProperties = {
         backgroundImage: `url(${site.image})`,
@@ -20,7 +21,7 @@ const Card = ({site, displayImage}:Props) => {
     }
 
     return ( 
-        <div className="card">
+        <div className={`card ${displayImage ? '' : 'card-no-image'}`}>
             {displayImage && <div className="card-image" style={imageStyle}></div>}
             <p><span>{site.title}</span> <br/> {site.description}</p>
             <div className="card-tech">
@@ -29,8 +30,8 @@ const Card = ({site, displayImage}:Props) => {
                 ))}
             </div>
             <div className="card-btn-box">
-                <a><IoLogoGithub/> Github</a>
-                <a><IoLogoGithub/> Server</a>
+                <a href={site.repository} target="blank"><IoLogoGithub/> Github</a>
+                {server == true && <a className="card-btn-box__server" href={site.repository_backend} target="blank"><IoLogoGithub/> Server</a>}
             </div>
         </div>
      );

@@ -5,7 +5,7 @@
         "description": "desc",
         "image": "https://github.com/marcel-212/portfolio/blob/main/images/jabko.jpg?raw=true",
         "repository": "#",
-        "repostiory_backend": "#",
+        "repostiory_backend": "sad",
         "tech": ["react", "rtkquery", "redux", "scss", "typescript", "html", "node", "mongo", "express"]
     }
 ]

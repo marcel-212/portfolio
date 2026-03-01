@@ -21,12 +21,12 @@ const SiteList = () => {
         <div>
             {!isActive && 
                 sites.map((item) => (
-                    <Card key={item.id} site={item} displayImage={true}/>
+                    <Card key={item.id} site={item} displayImage={true} server={item.repository_backend != "" ? true : false}/>
                 ))
             }
             {isActive && 
                 rest.map((item) => (
-                    <Card key={item.id} site={item} displayImage={false}/>
+                    <Card key={item.id} site={item} displayImage={false} server={false}/>
                 ))
             }
         </div>

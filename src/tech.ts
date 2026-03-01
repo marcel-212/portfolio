@@ -65,12 +65,12 @@ export const ICONS = {
     },
     symfony: {
         color_main: '#000000',
-        color_border: '#00000060',
+        color_border: '#00000090',
         icon: FaSymfony
     },
     express: {
-        color_main: '#444444',
-        color_border: '#44444460',
+        color_main: '#777777',
+        color_border: '#77777760',
         icon: SiExpress
     },
     scss: {
@@ -149,8 +149,8 @@ export const ICONS = {
         icon: FaGitAlt
     },
     mariadb: {
-        color_main: '#003545',
-        color_border: '#00354560',
+        color_main: '#017294',
+        color_border: '#01729460',
         icon: SiMariadb
     },
     python: {

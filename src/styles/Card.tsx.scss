@@ -2,7 +2,7 @@
 
 .card{
     border-radius: 0;
-    border-bottom: 2px solid $secondary;
+    border-bottom: 1px solid grey;
 
     padding: 1rem;
 
@@ -66,6 +66,65 @@
                 width: 24px;
                 height: 24px;
             }
+
+            &:hover{
+                background-color: rgba(255, 255, 255, 0.1);
+
+                svg{
+                    background-color: transparent;
+                }
+            }
+        }
+
+        &__server:hover{
+            border-color: rgba(226, 124, 40, 0.3);
+            color: rgba(226, 124, 40, 0.705);
+        }
+    }
+
+    @media (min-width: 1024px){
+        display: grid;
+        grid-template-columns: 30% 70%;
+        grid-template-areas: 'image title' 'image buttons' 'image tech';
+        
+        &-image{
+            grid-area: image;
+        }
+
+        p{
+            grid-area: title;
+            text-align: right;
+        }
+
+        &-tech{
+            grid-area: tech;
+            justify-content: end;
+            padding-top: 0.75rem;
+        }
+
+        &-btn-box{
+            border: none;
+            justify-content: end;
+            grid-area: buttons;
+        }
+    }
+}
+
+.card-no-image{
+    @media (min-width: 1024px){
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 'title buttons' 'tech tech';
+
+        p{
+          text-align: left;  
+        }
+
+        .card-btn-box{
+            align-items: start;
+        }
+
+        .card-tech{
+            justify-content: start !important;
         }
     }
 }
